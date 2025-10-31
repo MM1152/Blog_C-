@@ -61,23 +61,23 @@ public class DFS
 
 
 
-public class Program
-{
-    static void Main()
-    {
-        int nodeCount = 7;
-        int[,] graph =
-        {
-            {1,2},
-            {1,3},
-            {2,5},
-            {3,4},
-            {4,6},
-            {5,7}
-        };
-        DFS dfs = new DFS();
-        dfs.UseStack(graph, 1, nodeCount);
-        Console.WriteLine();
-        dfs.UseRecursion(graph , 1 , nodeCount);
-    }
-}
+// public class Program
+// {
+//     static void Main()
+//     {
+//         int nodeCount = 7;
+//         int[,] graph =
+//         {
+//             {1,2},
+//             {1,3},
+//             {2,5},
+//             {3,4},
+//             {4,6},
+//             {5,7}
+//         };
+//         DFS dfs = new DFS();
+//         dfs.UseStack(graph, 1, nodeCount);
+//         Console.WriteLine();
+//         dfs.UseRecursion(graph , 1 , nodeCount);
+//     }
+// }
